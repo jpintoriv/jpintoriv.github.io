@@ -4,10 +4,12 @@
   <body>
     <h1>Oh hai there!</h1>
     <p id="msg">Testing</p>
+    <p id="iface"></p>
     <script type="text/javascript">
       var msg = document.getElementById("msg");
       msg.innerHTML = iface.getFlagPath();
-console.log(iface);
+      var ol = document.getElementById("iface");
+      ol.innerHTML = iface;
     </script>
   </body>
 </html>
